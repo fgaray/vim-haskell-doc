@@ -1,0 +1,36 @@
+-- This file has been generated from package.yaml by hpack version 0.17.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           vim-haskell-doc
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/vim-haskell-doc#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2017 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable vim-haskell-doc
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , aeson
+    , network
+    , process
+    , safe
+    , tagsoup
+    , text
+    , optparse-applicative
+  other-modules:
+      Haddock
+      Options
+  default-language: Haskell2010

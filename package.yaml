@@ -1,0 +1,25 @@
+name:                vim-haskell-doc
+version:             0.1.0.0
+homepage:            https://github.com/githubuser/vim-haskell-doc#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2017 Author name here
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base
+  - aeson
+  - network
+  - process
+  - safe
+  - tagsoup
+  - text
+  - optparse-applicative
+
+executables:
+  vim-haskell-doc:
+    source-dirs:      src
+    main:             Main.hs
